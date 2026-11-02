@@ -1,0 +1,3 @@
+cd folder
+py -m streamlit run app.py 
+For Windows cmd 
