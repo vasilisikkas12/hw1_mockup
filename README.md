@@ -20,11 +20,16 @@
 ## Οδηγίες Εκτέλεσης (Για τον αξιολογητή)
 Για να τρέξετε το mockup τοπικά, ακολουθήστε τα παρακάτω βήματα:
 
-1. Κάντε clone το repository.
+1. Κάντε clone το repository .
 2. Βεβαιωθείτε ότι έχετε εγκατεστημένη την Python.
-3. Αν δεν τρέχει κάντε το εξής:
+
+*The steps below are for windows cmd commands*
+
+3. Εγκαταστήστε τις απαραίτητες βιβλιοθήκες τρέχοντας:
    ```bash
-   py -m streamlit run app.py
-4. Εγκαταστήστε τις απαραίτητες βιβλιοθήκες τρέχοντας:
+   pip install -r requirements.txt.
+4. Αν δεν τρέχει κάντε το εξής:
    ```bash
-   pip install -r requirements.txt
+   py -m streamlit run app.py or python3 -m streamlit run app.py
+
+
